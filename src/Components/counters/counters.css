@@ -1,16 +1,18 @@
 .counters {
   height: 200px;
   width: 100%;
-  background: aliceblue;
+  background: black;
   display: flex;
-  justify-content: space-between;
+  color: #fff;
+  align-items: center;
 }
 .counter-card {
   display: flex;
-  width: 20%;
-  background: papayawhip;
+  width: 30%;
   align-items: center;
   justify-content: center;
+  border: 2px solid #fff;
+  height: 200px;
 }
 .counter-numbers {
 }

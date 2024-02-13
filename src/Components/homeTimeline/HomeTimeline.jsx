@@ -3,10 +3,17 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import "./hometimeline.css";
 import "react-vertical-timeline-component/style.min.css";
+
 function HomeTimeline() {
   return (
     <VerticalTimeline>
+      <div className="heading-timeline">
+        <h1>
+          How <span>We</span> Help?
+        </h1>
+      </div>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -15,11 +22,11 @@ function HomeTimeline() {
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Creative Director</h3>
-        <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+        <h3 className="vertical-timeline-element-title">Issue Understanding</h3>
+        {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
         <p>
-          Creative Direction, User Experience, Visual Design, Project
-          Management, Team Leading
+          We listen attentively to understand the details of the problem you're
+          facing.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -28,13 +35,13 @@ function HomeTimeline() {
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Art Director</h3>
-        <h4 className="vertical-timeline-element-subtitle">
+        <h3 className="vertical-timeline-element-title">Portal Expertise</h3>
+        {/* <h4 className="vertical-timeline-element-subtitle">
           San Francisco, CA
-        </h4>
+        </h4> */}
         <p>
-          Creative Direction, User Experience, Visual Design, SEO, Online
-          Marketing
+          We are well-versed in different complaint portals, ensuring guidance
+          tailored to your specific issues.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -43,9 +50,11 @@ function HomeTimeline() {
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-        <p>User Experience, Visual Design</p>
+        <h3 className="vertical-timeline-element-title">
+          Form Filling Assistance
+        </h3>
+        {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
+        <p>Form filling / Complaint registration by our experts </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -53,11 +62,14 @@ function HomeTimeline() {
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">
+        <h3 className="vertical-timeline-element-title">Follow-up Support</h3>
+        {/* <h4 className="vertical-timeline-element-subtitle">
           San Francisco, CA
-        </h4>
-        <p>User Experience, Visual Design</p>
+        </h4> */}
+        <p>
+          Guiding you on post-complaint procedure, including tracking,
+          responding to queries, and escalation if needed{" "}
+        </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
@@ -65,11 +77,12 @@ function HomeTimeline() {
         iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
         // icon={<SchoolIcon />}
       >
-        <h3 className="vertical-timeline-element-title">
-          Content Marketing for Web, Mobile and Social Media
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-        <p>Strategy, Social Media</p>
+        <h3 className="vertical-timeline-element-title">Continous Updates</h3>
+        {/* <h4 className="vertical-timeline-element-subtitle">Online Course</h4> */}
+        <p>
+          Staying informed and updated to provide accurate and current
+          assistance
+        </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"

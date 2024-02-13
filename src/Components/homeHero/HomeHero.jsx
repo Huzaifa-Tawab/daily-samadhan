@@ -34,6 +34,7 @@ function HomeHero() {
   return (
     <div className="Home-hero">
       <div className="hero-search">
+        .herohead-conten
         <Select
           options={Portals}
           onChange={(opt) => {
