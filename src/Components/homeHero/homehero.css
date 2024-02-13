@@ -1,0 +1,15 @@
+.Home-hero {
+  display: flex;
+  height: 90vh;
+
+  padding: 10vh 10vw 0px 10vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-search {
+  width: 50%;
+}
+
+.hero-img {
+  height: 100%;
+}

@@ -1,0 +1,20 @@
+.counters {
+  height: 200px;
+  width: 100%;
+  background: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+.counter-card {
+  display: flex;
+  width: 20%;
+  background: papayawhip;
+  align-items: center;
+  justify-content: center;
+}
+.counter-numbers {
+}
+.counter-prefix {
+}
+.counter-suffix {
+}
