@@ -7,12 +7,15 @@ function Counters() {
     <div className="counters">
       {counterList.map((res) => (
         <div className="counter-card">
-          <p className="counter-prefix">{res.prefix}</p>
-          <CounterSingle
-            start={res.start}
-            end={res.end}
-            duration={res.duration}
-          />
+          <div className="counter-card-top">
+            <CounterSingle
+              start={res.start}
+              end={res.end}
+              duration={res.duration}
+            />
+            <p className="counter-prefix">{res.prefix}</p>
+          </div>
+
           <p className="counter-suffix">{res.suffix}</p>
         </div>
       ))}

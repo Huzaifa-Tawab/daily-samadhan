@@ -14,16 +14,22 @@ function Testimonials() {
     slidesToScroll: 3,
   };
   return (
-    <Slider {...settings} className="testimonials-slider">
-      {Tlist.map((res) => (
-        <Testimony
-          key={res}
-          imgUrl={res.imgUrl}
-          heading={res.heading}
-          para={res.para}
-        />
-      ))}
-    </Slider>
+    <div className="testimonials">
+      <div className="testinomials-content-top">
+        <h2>Client Testinomial</h2>
+        <h1>What A Customer Says About Us</h1>
+      </div>
+      <Slider {...settings} className="testimonials-slider">
+        {Tlist.map((res) => (
+          <Testimony
+            key={res}
+            imgUrl={res.imgUrl}
+            heading={res.heading}
+            para={res.para}
+          />
+        ))}
+      </Slider>
+    </div>
   );
 }
 
