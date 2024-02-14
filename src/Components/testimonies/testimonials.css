@@ -38,6 +38,7 @@
 .slick-prev:before,
 .slick-next:before {
   color: blue;
+  font-size: 40px;
 }
 .testinomials-content-top {
   display: flex;
@@ -48,4 +49,8 @@
 .testinomials-content-top h2 {
   color: #c21c1c;
   text-decoration: underline;
+}
+.slick-list {
+  width: 95%;
+  margin-left: 40px;
 }
