@@ -13,3 +13,20 @@
 .hero-img {
   height: 100%;
 }
+.hero-search > h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+
+  span {
+    color: #c21c1c;
+  }
+}
+.hero-search > h4 {
+  font-size: 20px;
+  color: #c21c1c;
+
+  span {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

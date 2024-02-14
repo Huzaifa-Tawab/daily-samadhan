@@ -34,13 +34,19 @@ function HomeHero() {
   return (
     <div className="Home-hero">
       <div className="hero-search">
-        .herohead-conten
+        <h1>
+          There Are <span>100+ Complaint Portals</span> Here For You!!
+        </h1>
         <Select
           options={Portals}
           onChange={(opt) => {
             navigate(`/portal/${opt.value}`);
           }}
         />
+        <h4>
+          Popular Search:
+          <span> Lost And Found, Fir, Police Complaint, Etc </span>
+        </h4>
       </div>
 
       <img className="hero-img" src={heroImg} alt="" />
