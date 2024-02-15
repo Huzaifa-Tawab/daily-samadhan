@@ -1,3 +1,6 @@
+.main-nav {
+  height: 180px;
+}
 .nav-top-hero {
   display: flex;
 
@@ -30,7 +33,7 @@
 .navbar-list {
   margin-top: 20px;
 }
-.navbar-list ul {
+.navbar-flex {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -46,4 +49,57 @@
   width: 2px;
   height: 15px;
   background-color: #969696;
+}
+.mobile-menu-icon {
+  display: none;
+}
+@media screen and (max-width: 780px) {
+  .log {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+  .navbar-flex {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #090a2f;
+    left: 0;
+    top: 85px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+  .home {
+    color: wheat;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    color: #090a2f;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    top: 50px;
+    right: 25px;
+  }
+  .navbar-main-withlogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+
+    img {
+      height: auto;
+      width: 250px;
+    }
+  }
 }

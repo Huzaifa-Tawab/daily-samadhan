@@ -37,7 +37,7 @@
 }
 .slick-prev:before,
 .slick-next:before {
-  color: blue;
+  color: grey;
   font-size: 40px;
 }
 .testinomials-content-top {

@@ -31,7 +31,7 @@ function HomeTimeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2010 - 2011"
+        // date="2010 - 2011"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
       >
@@ -46,7 +46,7 @@ function HomeTimeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2008 - 2010"
+        // date="2008 - 2010"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
       >
@@ -58,7 +58,7 @@ function HomeTimeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2006 - 2008"
+        // date="2006 - 2008"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
       >
@@ -73,7 +73,7 @@ function HomeTimeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date="April 2013"
+        // date="April 2013"
         iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
         // icon={<SchoolIcon />}
       >
@@ -86,7 +86,7 @@ function HomeTimeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date="November 2012"
+        // date="November 2012"
         iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
         // icon={<SchoolIcon />}
       >
@@ -98,7 +98,7 @@ function HomeTimeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date="2002 - 2006"
+        // date="2002 - 2006"
         iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
         // icon={<SchoolIcon />}
       >
