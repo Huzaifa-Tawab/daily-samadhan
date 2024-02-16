@@ -3,9 +3,12 @@ import aboutusimg from "../../assets/aboutus.png";
 import "./about.css";
 import Counters from "../../Components/counters/Counters";
 import Corusal from "../../Components/swipecarousal/Corusal";
+import Navbar from "../../Components/Navbar/Navbar";
 
 function Aboutus() {
   return (
+    <>
+    <Navbar />
     <div className="about-us-main">
       <div className="main-head-aboutus">
         <h1>
@@ -32,6 +35,7 @@ function Aboutus() {
       <Counters />
       <Corusal />
     </div>
+    </>
   );
 }
 
