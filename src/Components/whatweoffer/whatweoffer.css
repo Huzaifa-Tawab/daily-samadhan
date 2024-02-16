@@ -1,0 +1,23 @@
+.offers-columns {
+  display: flex;
+  justify-content: space-evenly;
+}
+.offer-1,
+.offer-2,
+.offer-3 {
+  border: 2px solid blue;
+
+  h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+.offer-1 {
+  width: 20%;
+}
+.offer-2 {
+  width: 30%;
+}
+.offer-3 {
+  width: 20%;
+}

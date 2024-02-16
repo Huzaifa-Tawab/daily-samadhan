@@ -6,6 +6,7 @@ import Navbar from "../src/Components/Navbar/Navbar";
 import Whatwedo from "./Components/whatwedo/Whatwedo";
 import Corusal from "./Components/swipecarousal/Corusal";
 import Aboutus from "./Pages/Aboutus/Aboutus";
+import Whatweoffer from "./Components/whatweoffer/Whatweoffer";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="whatwedo" element={<Whatwedo />} />
         <Route path="swipper" element={<Corusal />} />
         <Route path="aboutus" element={<Aboutus />} />
+        <Route path="offer" element={<Whatweoffer />} />
       </Routes>
     </BrowserRouter>
   );
