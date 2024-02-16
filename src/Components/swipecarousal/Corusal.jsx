@@ -7,7 +7,11 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
+import swiperimg1 from "../../assets/image1.jpg";
+import swiperimg2 from "../../assets/image2.jpg";
+import swiperimg3 from "../../assets/image3.jpg";
+import swiperimg4 from "../../assets/image4.jpg";
+import swiperimg5 from "../../assets/image5.jpg";
 import "./corusals.css";
 import Swipe_img from "../../assets/whatwedo.png";
 // import required modules
@@ -40,6 +44,21 @@ export default function Corusal() {
         className="swiper_container"
       >
         <SwiperSlide>
+          <img src={swiperimg1} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={swiperimg2} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={swiperimg3} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={swiperimg4} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={swiperimg5} alt="" />
+        </SwiperSlide>
+        {/* <SwiperSlide>
           <img src={Swipe_img} alt="" />
         </SwiperSlide>
         <SwiperSlide>
@@ -50,22 +69,7 @@ export default function Corusal() {
         </SwiperSlide>
         <SwiperSlide>
           <img src={Swipe_img} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Swipe_img} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Swipe_img} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Swipe_img} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Swipe_img} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Swipe_img} alt="" />
-        </SwiperSlide>
+        </SwiperSlide> */}
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
             <ion-icon name="arrow-back-outline"></ion-icon>
