@@ -30,3 +30,17 @@
     font-weight: 400;
   }
 }
+@media screen and (max-width: 780px) {
+  .Home-hero {
+    display: flex;
+    height: auto;
+
+    flex-direction: column;
+  }
+  .hero-search {
+    width: 100%;
+  }
+  .hero-img {
+    height: 290px;
+  }
+}

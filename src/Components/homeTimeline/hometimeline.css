@@ -7,3 +7,8 @@
     color: #c21c1c;
   }
 }
+@media screen and (max-width: 780px) {
+  .vertical-timeline {
+    width: 90%;
+  }
+}

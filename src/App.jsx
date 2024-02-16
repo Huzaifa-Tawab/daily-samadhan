@@ -4,6 +4,8 @@ import NoPage from "./Pages/404/NoPage";
 import PortalDetails from "./Pages/portalDetails/PortalDetails";
 import Navbar from "../src/Components/Navbar/Navbar";
 import Whatwedo from "./Components/whatwedo/Whatwedo";
+import Corusal from "./Components/swipecarousal/Corusal";
+import Aboutus from "./Pages/Aboutus/Aboutus";
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
         <Route path="portal/:id" element={<PortalDetails />} />
         <Route path="navbar" element={<Navbar />} />
         <Route path="whatwedo" element={<Whatwedo />} />
+        <Route path="swipper" element={<Corusal />} />
+        <Route path="aboutus" element={<Aboutus />} />
       </Routes>
     </BrowserRouter>
   );

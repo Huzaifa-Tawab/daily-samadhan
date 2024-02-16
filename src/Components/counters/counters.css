@@ -1,11 +1,11 @@
 .counters {
-  height: 200px;
+  height: 140px;
   width: 100%;
   background: black;
   display: flex;
   color: #fff;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .counter-card {
   display: flex;
@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   border: 2px solid #fff;
-  height: 200px;
+  height: 140px;
 }
 .counter-card-top {
   display: flex;
@@ -31,4 +31,13 @@
 }
 .counter-suffix {
   font-size: 16px;
+}
+@media screen and (max-width: 780px) {
+  .counters {
+    height: auto;
+    flex-direction: column;
+  }
+  .counter-card {
+    width: 100%;
+  }
 }
