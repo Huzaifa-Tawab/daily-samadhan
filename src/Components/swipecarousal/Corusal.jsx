@@ -20,6 +20,11 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 export default function Corusal() {
   return (
     <div div className="main-swipe-page">
+      <div className="main-head-swipeheading">
+        <h1>
+          Why <span>Choose</span> Daily Samadhan
+        </h1>
+      </div>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}

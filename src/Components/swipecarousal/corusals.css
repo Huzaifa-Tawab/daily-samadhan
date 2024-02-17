@@ -8,6 +8,23 @@
   position: relative;
   height: 100%;
 }
+.main-head-swipeheading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+
+  h1 {
+    font-size: 30px;
+    color: #090a2f;
+    border-bottom: 2px solid #090a2f;
+
+    span {
+      color: #c21c1c;
+      border-bottom: 2px solid #c21c1c;
+    }
+  }
+}
 
 .swiper {
   width: 100%;
