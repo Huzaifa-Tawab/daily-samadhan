@@ -7,24 +7,25 @@ import Whatwedo from "./Components/whatwedo/Whatwedo";
 import Corusal from "./Components/swipecarousal/Corusal";
 import Aboutus from "./Pages/Aboutus/Aboutus";
 import Whatweoffer from "./Components/whatweoffer/Whatweoffer";
+import Footer from "./Components/Footer/Footer";
 
 export default function App() {
   return (
-    <> 
-    {/* <Navbar/> */}
-    <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="*" element={<NoPage />} />
-        <Route path="portal/:id" element={<PortalDetails />} />
-        {/* <Route path="navbar" element={<Navbar />} /> */}
-        <Route path="whatwedo" element={<Whatwedo />} />
-        <Route path="swipper" element={<Corusal />} />
-        <Route path="aboutus" element={<Aboutus />} />
-        <Route path="offer" element={<Whatweoffer />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      {/* <Navbar/> */}
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="*" element={<NoPage />} />
+          <Route path="portal/:id" element={<PortalDetails />} />
+          {/* <Route path="navbar" element={<Navbar />} /> */}
+          <Route path="whatwedo" element={<Whatwedo />} />
+          <Route path="swipper" element={<Corusal />} />
+          <Route path="aboutus" element={<Aboutus />} />
+          <Route path="offer" element={<Whatweoffer />} />
+          <Route path="footer" element={<Footer />} />
+        </Routes>
+      </BrowserRouter>
     </>
-
   );
 }
