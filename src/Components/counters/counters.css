@@ -36,6 +36,7 @@
   .counters {
     height: auto;
     flex-direction: column;
+    margin: 10px;
   }
   .counter-card {
     width: 100%;

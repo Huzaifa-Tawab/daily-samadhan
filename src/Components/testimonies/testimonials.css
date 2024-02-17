@@ -54,3 +54,22 @@
   width: 95%;
   margin-left: 40px;
 }
+@media screen and (max-width: 780px) {
+  .testimony {
+    width: 100%;
+  }
+  .slick-next {
+    right: -25px;
+  }
+  .slick-prev {
+    left: -20px;
+    z-index: 1;
+  }
+  .slick-list {
+    margin-left: 20px;
+  }
+  .testinomials-content-top h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+}

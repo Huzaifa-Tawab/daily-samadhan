@@ -6,11 +6,10 @@
 }
 .offer-1,
 .offer-3 {
-  border: 2px solid #C21C1C;
+  border: 2px solid #c21c1c;
   border-radius: 5px;
   padding: 1rem;
   box-shadow: 15px 15px 2.99999809265137px 0px #00000040;
-
 
   h1 {
     font-size: 20px;
@@ -18,26 +17,24 @@
   }
 }
 .offer-2 {
-  border: 2px solid #090A2F;
+  border: 2px solid #090a2f;
   border-radius: 5px;
   padding: 1rem;
   box-shadow: 15px 15px 2.99999809265137px 0px #00000040;
-
 
   h1 {
     font-size: 20px;
     font-weight: 400;
   }
 }
-.header-offer-2{
-  background: #C21C1C;
+.header-offer-2 {
+  background: #c21c1c;
   margin: -2.3rem 100px 0px 100px;
   border-radius: 5px;
   padding: 10px 0px;
   color: #fff;
   font-size: 1.2rem;
 }
-
 
 .offer-1 {
   width: 16%;
@@ -50,16 +47,16 @@
   width: 16%;
 }
 .offer-1 button,
-.offer-3 button{
-  background: #090A2F;
+.offer-3 button {
+  background: #090a2f;
   border: none;
   margin: 10px;
   padding: 1rem;
   color: #fff;
   font-size: 1.2rem;
 }
-.offer-2 button{
-  background: #C21C1C;
+.offer-2 button {
+  background: #c21c1c;
   border: none;
   margin: 10px;
   padding: 1rem;
@@ -68,10 +65,30 @@
 }
 .offer-1 span img,
 .offer-3 span img,
-.offer-2 span img{
+.offer-2 span img {
   width: 20px;
 }
 
-.offer-2 span{
+.offer-2 span {
   text-align: left;
+}
+@media screen and (max-width: 780px) {
+  .offers-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 3rem;
+    gap: 30px;
+  }
+  .offer-1 {
+    width: 100%;
+  }
+  .offer-2 {
+    width: 100%;
+    height: auto;
+  }
+  .offer-3 {
+    width: 100%;
+  }
 }

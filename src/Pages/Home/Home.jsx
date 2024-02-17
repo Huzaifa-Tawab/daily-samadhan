@@ -6,6 +6,7 @@ import Testimonials from "../../Components/testimonies/Testimonials";
 import Whatwedo from "../../Components/whatwedo/Whatwedo";
 import Navbar from "../../Components/Navbar/Navbar";
 import Whatweoffer from "../../Components/whatweoffer/Whatweoffer";
+import Footer from "../../Components/Footer/Footer";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <HomeTimeline />
       <Whatweoffer />
       <Testimonials />
+      <Footer />
     </div>
   );
 }
