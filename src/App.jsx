@@ -8,6 +8,7 @@ import Corusal from "./Components/swipecarousal/Corusal";
 import Aboutus from "./Pages/Aboutus/Aboutus";
 import Whatweoffer from "./Components/whatweoffer/Whatweoffer";
 import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/Contactform/Contact";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="aboutus" element={<Aboutus />} />
           <Route path="offer" element={<Whatweoffer />} />
           <Route path="footer" element={<Footer />} />
+          <Route path="form" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>

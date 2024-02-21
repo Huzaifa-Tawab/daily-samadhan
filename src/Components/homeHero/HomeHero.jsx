@@ -1,12 +1,14 @@
 import request from "graphql-request";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Select from "react-select";
 import heroImg from "../../assets/PhoneMockUp.png";
+import video from "../../assets/herovideo.mp4";
 import "./homehero.css";
 function HomeHero() {
   const [Portals, setPortals] = useState([]);
   const navigate = useNavigate();
+
   useEffect(() => {
     fetchPortals();
   }, []);
@@ -49,7 +51,16 @@ function HomeHero() {
         </h4>
       </div>
 
-      <img className="hero-img" src={heroImg} alt="" />
+      <video
+        width="750"
+        height="500"
+        autoPlay
+        muted
+        loop
+        src={video}
+        type="video/mp4"
+      />
+      {/* <img className="hero-img" src={heroImg} alt="" /> */}
     </div>
   );
 }
