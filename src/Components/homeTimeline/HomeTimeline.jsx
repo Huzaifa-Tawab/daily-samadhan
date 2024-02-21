@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "./hometimeline.css";
 import "react-vertical-timeline-component/style.min.css";
+import { MdNumbers } from "react-icons/md";
 
 function HomeTimeline() {
   return (
@@ -20,7 +21,7 @@ function HomeTimeline() {
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="2011 - present"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        // icon={<WorkIcon />}
+        icon={<MdNumbers />}
       >
         <h3 className="vertical-timeline-element-title">Issue Understanding</h3>
         {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
@@ -33,7 +34,7 @@ function HomeTimeline() {
         className="vertical-timeline-element--work"
         // date="2010 - 2011"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        // icon={<WorkIcon />}
+        icon={<MdNumbers />}
       >
         <h3 className="vertical-timeline-element-title">Portal Expertise</h3>
         {/* <h4 className="vertical-timeline-element-subtitle">
@@ -48,7 +49,7 @@ function HomeTimeline() {
         className="vertical-timeline-element--work"
         // date="2008 - 2010"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        // icon={<WorkIcon />}
+        icon={<MdNumbers />}
       >
         <h3 className="vertical-timeline-element-title">
           Form Filling Assistance
@@ -60,7 +61,7 @@ function HomeTimeline() {
         className="vertical-timeline-element--work"
         // date="2006 - 2008"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        // icon={<WorkIcon />}
+        icon={<MdNumbers />}
       >
         <h3 className="vertical-timeline-element-title">Follow-up Support</h3>
         {/* <h4 className="vertical-timeline-element-subtitle">
@@ -75,7 +76,7 @@ function HomeTimeline() {
         className="vertical-timeline-element--education"
         // date="April 2013"
         iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-        // icon={<SchoolIcon />}
+        icon={<MdNumbers />}
       >
         <h3 className="vertical-timeline-element-title">Continous Updates</h3>
         {/* <h4 className="vertical-timeline-element-subtitle">Online Course</h4> */}
@@ -88,7 +89,7 @@ function HomeTimeline() {
         className="vertical-timeline-element--education"
         // date="November 2012"
         iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-        // icon={<SchoolIcon />}
+        icon={<SchoolIcon />}
       >
         <h3 className="vertical-timeline-element-title">
           Agile Development Scrum Master

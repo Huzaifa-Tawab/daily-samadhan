@@ -7,6 +7,9 @@
     color: #c21c1c;
   }
 }
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+  background: #f1f0ef;
+}
 @media screen and (max-width: 780px) {
   .vertical-timeline {
     width: 90%;

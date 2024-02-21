@@ -12,12 +12,9 @@ function Footer() {
         </div>
         <div className="footercolumn-2">
           <h1>Address</h1>
-          <p>
-            10th Floor, Tower-B, Unitech Cyber Park, Sector-39, Gurugram,
-            Haryana - 122011
-          </p>
-          <p>+91-9818908714</p>
-          <p>info@loanmukt.co.in</p>
+          <p>xth Floor, Tower-x, xxxxxxxxx, Sector-39, xxx, xxx - xxxx</p>
+          <p>+91-c8xxxxx</p>
+          <p>infoxxxxx.co.in</p>
         </div>
         <div className="footercolumn-3">
           <ul className="footer-list-ul">
